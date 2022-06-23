@@ -1,0 +1,21 @@
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb;
+
+  .title{
+    color: #197edd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    transition: ease-in .5s;
+    cursor: pointer;
+
+    &:hover{
+      color: #1b91ff;
+      transform: scale(1.2);
+    }
+  }
+}
